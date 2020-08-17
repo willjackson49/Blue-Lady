@@ -15,6 +15,13 @@
     --pink: #fa3a57;
     --brown: #a3821a;
     --darkmode: color-mod(var(--darkgrey) l(+2%));
+    /* https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51 */
+    --charcoal: #264653;
+    --persiangreen: #2A9D8F;
+    --orangeyellow: #E9C46A;
+    --sandybrown: #F4A261;
+    --burntsienna: #E76F51;
+    --greyish: #BFBFBF;
 }
 
 /* Reset

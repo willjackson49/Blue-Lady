@@ -113,8 +113,8 @@ body {
     position: relative;
     margin-top: 64px;
     padding-bottom: 12px;
-    color: #fff;
-    background: color-mod(var(--darkgrey) l(-5%)) no-repeat center center;
+    color: #BFBFBF;
+    background: #264653;
     background-size: cover;
 }
 
@@ -169,7 +169,7 @@ body {
 }
 
 .site-logo {
-    max-height: 55px;
+    max-height: 2.5em;
 }
 
 .site-description {
@@ -203,8 +203,10 @@ body {
 }
 
 .site-home-header .site-description {
-    font-size: 2.2rem;
-    font-weight: 300;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -283,7 +285,7 @@ body {
     right: 0;
     left: 0;
     z-index: 1000;
-    background: color-mod(var(--darkgrey) l(-5%));
+    background: #264653;
 }
 
 .site-nav {
@@ -667,7 +669,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .post-card-primary-tag {
     margin: 0 0 0.2em;
-    color: var(--blue);
+    color: #2A9D8F;
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: 0.2px;
@@ -801,6 +803,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .post-card-byline-date {
     font-size: 1.2rem;
+    color: #E76F51;
 }
 
 .post-card-byline-date .bull {
@@ -1341,7 +1344,7 @@ Usage (In Ghost editor):
     padding: 0.4em 1em 0.9em;
     border: 0;
     color: var(--blue);
-    font-family: Georgia,serif;
+    font-family: Georgia, serif;
     font-size: 3.2rem;
     line-height: 1.35em;
     text-align: center;
@@ -2800,7 +2803,7 @@ Usage (In Ghost editor):
     padding-top: 20px;
     padding-bottom: 60px;
     color: #fff;
-    background: color-mod(var(--darkgrey) l(-5%));
+    background: #E76F51;
 }
 
 .site-footer-content {
@@ -2986,11 +2989,6 @@ Usage (In Ghost editor):
 
     hr {
         border-top-color: color-mod(var(--darkmode) l(+8%));
-    }
-
-    .post-full-content hr:after {
-        background: color(var(--darkmode) l(+8%));
-        box-shadow: var(--darkmode) 0 0 0 5px;
     }
 
     .post-full-content figcaption {
